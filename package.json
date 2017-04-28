@@ -1,0 +1,14 @@
+{
+  "name": "TiJO_09",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "jshint": "2.9.4",
+    "jshint-html-reporter": "0.2.5",
+    "jshint-stylish": "2.2.1"
+  },
+  "scripts": {
+    "jshint": "jshint --reporter=node_modules/jshint-stylish app/app.js",
+    "jshint-html": "jshint --reporter node_modules/jshint-html-reporter/reporter.js app/app.js > report.html"
+  }
+}
