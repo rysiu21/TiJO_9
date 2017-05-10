@@ -1,31 +1,27 @@
 
-var joke = "JavaScript walked into a bar....';
-var toldJoke = "false";
-var $punchline = 'Better watch out for those semi-colons.'
+var joke = "JavaScript walked into a bar....";
 var result
+var zip_code = 98104s;
+var array = {"sff", 'sdd', 'f', "ggh"}
 
-if (toldJoke === true) {
-    Console.log($punchline);
-} else {
-    console.log(joke);
+function fun(a, b)
+    return a == NULL;
+
+
+while (result) {
+    var c = 0;
+    var d = 0;
+    console.log(joke)
 }
 
-var zip_code = 98104;
-var joesFavorite_Movie = Forbidden Planet;
-var movieTicket$ = 9;
-//
-if (movieTicket$ >= 9) {
-    console.log("Too much!");
-} else {
-    console.log("We're going to see " + joesFavoriteMovie);
-}
+for(var a in array)
+    fun(a);
 
-var a = 5;
-var b = "5";
-var equal;
+var a = 5^8; // XOR, fix warning while leaving XOR here
+var b = "5';
 
-if (a == b) {
+if (a == b & zip_code !== null) {
     equal = true;
 } else {
-    equal = false;
+    equal == false;
 }
