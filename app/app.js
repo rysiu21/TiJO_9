@@ -1,27 +1,28 @@
+var joke = 'JavaScript walked into a bar....';
+var result;
+var zipCode = 98104;
+var array = {'sff': 'sdd', 'f': 'ggh'};
+var equal;
 
-var joke = "JavaScript walked into a bar....";
-var result
-var zip_code = 98104s;
-var array = {"sff", 'sdd', 'f', "ggh"}
-
-function fun(a, b)
-    return a == NULL;
+function fun(a)
+    {'use strict';
+        return a === null;}
 
 
 while (result) {
-    var c = 0;
-    var d = 0;
-    console.log(joke)
+    console.log(joke);
 }
 
-for(var a in array)
-    fun(a);
+for (var a in array)
+    { if (array.hasOwnProperty(a)){
+        fun(a);}}
 
-var a = 5^8; // XOR, fix warning while leaving XOR here
-var b = "5';
 
-if (a == b & zip_code !== null) {
+var a = 5^8; // jshint ignore:line
+var b = '5';
+
+if (a === b && zipCode != null) {
     equal = true;
 } else {
-    equal == false;
+    equal = false;
 }
